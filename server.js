@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const port = `6000`;
+const port = process.env.PORT || 6000;
 const app = express()
 const mongoose = require('mongoose');
 const { body, validationResult } = require('express-validator');
