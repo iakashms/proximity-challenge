@@ -1,6 +1,25 @@
 # proximity-challenge
 Rest API where an instructor and student manage their Webinars &amp; Courses
 
+1.Architectural overview
+    Browser
+      |
+  User Interface
+      |
+   NodeJS (Backend)
+      |
+   Database
+      
+
+2. Tools and technologies you used
+Framework : Express
+Libraries : mongoose, bodyParser, multer
+DB : MongoDB
+ENV : NodeJS
+
+3. What you think can be improved and how?
+Optimization for Video storage, currently using local storage, can implement in s3 and access it via url
+
 API Details
 
 Method Accepted : GET, POST, PATCH
