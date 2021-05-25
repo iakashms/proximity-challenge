@@ -10,8 +10,8 @@ var router = express.Router()
 app.use('/api/v1',customApiRouter);
 app.use(bodyParser.json())
 
-// const connection_url = "mongodb://localhost:27017/proximity-challenge"
-const connection_url = "mongodb+srv://akashms:akashms789@A@cluster0.b1yrq.mongodb.net/proximity-challenge?retryWrites=true&w=majority"
+const connection_url = "mongodb://localhost:27017/proximity-challenge"
+// const connection_url = "mongodb+srv://akashms:akashms789@A@cluster0.b1yrq.mongodb.net/proximity-challenge?retryWrites=true&w=majority"
 
 mongoose.set('useFindAndModify', false);
 

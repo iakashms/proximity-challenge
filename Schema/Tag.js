@@ -4,7 +4,7 @@ const tagsSchema = mongoose.Schema({
     name: String,
     description: String,
     created_at : Date,
-    created_by : mongoose.Types.ObjectId,
+    created_by : { type: mongoose.Types.ObjectId , ref: 'instructor'},
     is_active : Boolean
 });
 
