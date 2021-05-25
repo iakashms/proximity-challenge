@@ -9,6 +9,7 @@ Rest API where an instructor and student manage their Webinars &amp; Courses
    NodeJS (Backend)
       |
    Database
+  for Diagram : https://ibb.co/Wf23Gvq
       
 
 2. Tools and technologies you used
