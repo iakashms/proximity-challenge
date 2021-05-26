@@ -3,8 +3,11 @@ Rest API where an instructor and student manage their Webinars &amp; Courses
 
 
 Open your cmd
+
 Clone this Repostiroty -> git clone git@github.com:iakashms/proximity-challenge.git
+
 go inside the cloned Repo
+
 do -> npm install (this will install all the dependencies in your local system)
 
 
